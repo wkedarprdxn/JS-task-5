@@ -617,7 +617,7 @@ var filldata = () => {
 };
 
 function disable_btn() {
-    alert('Empty');
+    alert('No More Data!!');
     document.getElementById("btn-1").disabled = true;
 }
 
