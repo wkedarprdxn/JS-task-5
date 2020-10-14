@@ -1,12 +1,39 @@
 .container {
+    position: relative;
     max-width: 80%;
     width: 1060px;
     margin: 0 auto;
 }
 
 .btn {
-    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
     margin: 0 auto;
+}
+
+#btn-1 {
+    padding: 15px 25px;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #af684c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#btn-1:hover {
+    background-color: #997f28
+}
+
+#btn-1:active {
+    background-color: #664f03;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 #main-block {
