@@ -618,7 +618,7 @@ var filldata = () => {
 
 function disable_btn() {
     alert('No More Data!!');
-    document.getElementById("btn-1").disabled = true;
+    document.getElementById("btn-1").hidden = true;
 }
 
 function display_6(num) {
